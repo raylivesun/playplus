@@ -1,0 +1,1126 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[     42616,       1116]
+NotebookOptionsPosition[     38932,       1047]
+NotebookOutlinePosition[     39369,       1064]
+CellTagsIndexPosition[     39326,       1061]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"CoshIntegral", "[", "4", "]"}], "+", 
+   RowBox[{"ContourSmoothing", "[", "4", "]"}], "+", 
+   RowBox[{"ContourShading", "[", "4", "]"}]}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.957894102252582*^9, 3.957894164083192*^9}, {
+  3.957894217704571*^9, 3.957894248464039*^9}, {3.957894295172127*^9, 
+  3.957894313453966*^9}},
+ CellLabel->"In[23]:=",ExpressionUUID->"8fdc352d-a343-49fa-897c-9683aff1f8a1"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ContourShading", "[", "4", "]"}], "+", 
+  RowBox[{"ContourSmoothing", "[", "4", "]"}], "+", 
+  RowBox[{"CoshIntegral", "[", "4", "]"}]}]], "Output",
+ CellChangeTimes->{3.957894322764348*^9},
+ CellLabel->"Out[23]=",ExpressionUUID->"a01366da-492e-4f75-b125-12035df8cba4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Cosh", "[", "4", "]"}], " ", "+", " ", 
+  RowBox[{"Cosh", "[", "4", "]"}], " ", "+", " ", 
+  RowBox[{
+   RowBox[{"Cosh", "[", "4", "]"}], "/", 
+   RowBox[{
+    RowBox[{"Sqrt", "[", "4", "]"}], "^", "y"}]}]}]], "Input",ExpressionUUID->\
+"2e033db3-dc8b-4dbb-a1f7-995ad7d9a6ef"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"2", " ", 
+   RowBox[{"Cosh", "[", "4", "]"}]}], "+", 
+  RowBox[{
+   SuperscriptBox["2", 
+    RowBox[{"-", "y"}]], " ", 
+   RowBox[{"Cosh", "[", "4", "]"}]}]}]], "Output",
+ CellChangeTimes->{3.9578944480903673`*^9},
+ CellLabel->"Out[24]=",ExpressionUUID->"833e1e00-5e4c-40d7-a17a-5e7262fd7d57"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"Cosh", "[", "4", "]"}], "^", "y"}], " ", "+", " ", 
+  RowBox[{
+   RowBox[{"Cosh", "[", "4", "]"}], "^", 
+   RowBox[{"Sqrt", "[", "4", "]"}]}]}]], "Input",ExpressionUUID->"535b55bb-\
+718f-4c51-ac0c-07ee3d7b5083"],
+
+Cell[BoxData[
+ RowBox[{
+  SuperscriptBox[
+   RowBox[{"Cosh", "[", "4", "]"}], "2"], "+", 
+  SuperscriptBox[
+   RowBox[{"Cosh", "[", "4", "]"}], "y"]}]], "Input",
+ CellChangeTimes->{{3.957894635939372*^9, 
+  3.9578946397220497`*^9}},ExpressionUUID->"add11293-e2aa-422e-82ee-\
+554c514e8ff1"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  TemplateBox[{"\"table\"", 
+    RowBox[{"Entity", "[", 
+      RowBox[{"\"Word\"", ",", "\"table\""}], "]"}], 
+    "\"Entity[\\\"Word\\\", \\\"table\\\"]\"", "\"word\""},
+   "Entity"], "[", 
+  TemplateBox[{"\"definitions\"", 
+    RowBox[{"EntityProperty", "[", 
+      RowBox[{"\"Word\"", ",", "\"Definitions\""}], "]"}], 
+    "\"EntityProperty[\\\"Word\\\", \\\"Definitions\\\"]\""},
+   "EntityProperty"], "]"}]], "Input",ExpressionUUID->"7fbaf198-fe1c-4ed5-\
+a39f-ee0de0f2b6a7"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"table\"", ",", "\"Noun\"", ",", "\"Array\""}], 
+     "}"}], "\[Rule]", "\"a set of data arranged in rows and columns\""}],
+    ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"table\"", ",", "\"Noun\"", ",", "\"Furniture\""}],
+      "}"}], "\[Rule]", "\"a piece of furniture having a smooth flat top \
+that is usually supported by one or more vertical legs\""}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"table\"", ",", "\"Noun\"", ",", "\"Meal\""}], 
+     "}"}], "\[Rule]", "\"a piece of furniture with tableware for a meal \
+laid out on it\""}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"table\"", ",", "\"Noun\"", ",", "\"Tableland\""}],
+      "}"}], "\[Rule]", "\"flat tableland with steep edges\""}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"table\"", ",", "\"Noun\"", ",", "\"Gathering\""}],
+      "}"}], "\[Rule]", "\"a company of people assembled at a table for a \
+meal or game\""}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"table\"", ",", "\"Noun\"", ",", "\"Fare\""}], 
+     "}"}], "\[Rule]", "\"food or meals in general\""}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"table\"", ",", "\"Verb\"", ",", "\"Delay\""}], 
+     "}"}], "\[Rule]", "\"hold back to a later time\""}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"table\"", ",", "\"Verb\"", ",", "\"Set\""}], 
+     "}"}], "\[Rule]", "\"arrange or enter in tabular form\""}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.957894797616825*^9},
+ CellLabel->"Out[28]=",ExpressionUUID->"cdb228c8-86e4-4f2e-bc6a-ac57cdc85f7e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Table", "[", 
+   RowBox[{"4", ",", " ", 
+    RowBox[{"{", 
+     RowBox[{"4", ",", " ", "4"}], "}"}]}], "]"}], 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.957894818454295*^9, 3.957894842354724*^9}},
+ CellLabel->"In[29]:=",ExpressionUUID->"d022465b-d6c1-46cf-b164-d1ac19ff9add"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table", "itraw", 
+   "\"Raw object \\!\\(\\*RowBox[{\\\"4\\\"}]\\) cannot be used as an \
+iterator.\"", 2, 29, 5, 23739368349936432705, "Local"},
+  "MessageTemplate",
+  BaseStyle->"MSG"]], "Message",
+ CellChangeTimes->{3.9578948509594088`*^9},
+ CellLabel->
+  "During evaluation of \
+In[29]:=",ExpressionUUID->"7db5f127-29d3-48b9-8561-0aaf7fe3b08d"],
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{"4", ",", 
+   RowBox[{"{", 
+    RowBox[{"4", ",", "4"}], "}"}]}], "]"}]], "Output",
+ CellChangeTimes->{3.957894850973127*^9},
+ CellLabel->"Out[29]=",ExpressionUUID->"7e829a33-7246-4ad9-850e-210726022ecf"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryParseResults",
+  DynamicModuleBox[{Typeset`q$$ = "Sum[i^2, {i, 10}]", Typeset`newq$$ = 
+   "Sum[i^2, {i, 10}]", Typeset`chosen$$ = "Sum[i^2, {i, 1, 10}]", 
+   Typeset`open$$ = False}, 
+   PaneSelectorBox[{False->
+    DynamicModuleBox[{Typeset`show$$ = False, Typeset`assumptionsQ$$ = False}, 
+     TagBox[
+      FrameBox[
+       TagBox[GridBox[{
+          {
+           InputFieldBox[Dynamic[Typeset`newq$$], String,
+            Appearance->None,
+            BaseStyle->{"CalculateInput"},
+            ContinuousAction->True,
+            Enabled->True,
+            FieldSize->{{1, 40}, {1, 
+               DirectedInfinity[1]}},
+            TrapSelection->False], 
+           ItemBox[
+            ButtonBox[
+             PaneSelectorBox[{True->
+              TagBox[
+               TooltipBox[
+                
+                DynamicBox[FEPrivate`FrontEndResource[
+                 "WABitmaps", "OrangeSquarePlus"],
+                 ImageSizeCache->{11., {3.173828125, 7.826171875}}],
+                DynamicBox[
+                 ToBoxes[
+                  FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
+                  StandardForm]]],
+               Annotation[#, 
+                Dynamic[
+                 FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"]], 
+                "Tooltip"]& ], False->
+              TagBox[
+               TooltipBox[
+                
+                DynamicBox[FEPrivate`FrontEndResource[
+                 "WABitmaps", "GraySquarePlus"],
+                 ImageSizeCache->{11., {3.173828125, 7.826171875}}],
+                DynamicBox[
+                 ToBoxes[
+                  FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
+                  StandardForm]]],
+               Annotation[#, 
+                Dynamic[
+                 FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"]], 
+                "Tooltip"]& ]}, Dynamic[Typeset`show$$],
+              ImageSize->All],
+             Appearance->None,
+             ButtonFunction:>(Quiet[
+                WolframAlpha[]]; If[
+                Or[
+                 CurrentValue["OptionKey"], 
+                 CurrentValue["AltKey"]], SelectionMove[
+                  ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+                NotebookWrite[
+                  ButtonNotebook[], 
+                  Cell[
+                  Typeset`newq$$, "WolframAlphaShort", FormatType -> 
+                   "TextForm"], All], Typeset`open$$ = True; 
+                WolframAlphaClient`Private`extrudeFromFastParse[
+                 "Sum[i^2, {i, 10}]", 
+                  Defer[
+                   Sum[$CellContext`i^2, {$CellContext`i, 1, 10}]], 
+                  "Fast parse"]; Typeset`open$$ = False]),
+             Evaluator->Automatic,
+             Method->"Queued"],
+            Alignment->{Right, Top},
+            StripOnInput->False]},
+          {
+           PaneBox[
+            TagBox[
+             TooltipBox[
+              ButtonBox[
+               PaneSelectorBox[{False->
+                StyleBox[
+                 RowBox[{"Sum", "[", 
+                  RowBox[{
+                   RowBox[{"i", "^", "2"}], ",", " ", 
+                   RowBox[{"{", 
+                    RowBox[{"i", ",", " ", "1", ",", " ", "10"}], "}"}]}], 
+                  "]"}],
+                 StripOnInput->False,
+                 NumberMarks->False], True->
+                StyleBox[
+                 RowBox[{"Sum", "[", 
+                  RowBox[{
+                   RowBox[{"i", "^", "2"}], ",", " ", 
+                   RowBox[{"{", 
+                    RowBox[{"i", ",", " ", "1", ",", " ", "10"}], "}"}]}], 
+                  "]"}],
+                 StripOnInput->False,
+                 ShowSyntaxStyles->False,
+                 NumberMarks->False,
+                 FontColor->RGBColor[1, 0.5, 0]]}, Dynamic[
+                 CurrentValue["MouseOver"]],
+                BaseStyle->{ShowStringCharacters -> True},
+                FrameMargins->0,
+                ImageSize->Automatic],
+               Alignment->Left,
+               Appearance->None,
+               BaseStyle->{},
+               ButtonFunction:>(SelectionMove[
+                  ButtonNotebook[], All, ButtonCell]; NotebookWrite[
+                  ButtonNotebook[], 
+                  Cell[
+                   BoxData[
+                    RowBox[{"Sum", "[", 
+                    RowBox[{
+                    RowBox[{"i", "^", "2"}], ",", " ", 
+                    RowBox[{"{", 
+                    RowBox[{"i", ",", " ", "1", ",", " ", "10"}], "}"}]}], 
+                    "]"}]], "Input"], All]; SelectionMove[
+                  ButtonNotebook[], After, CellContents]),
+               Evaluator->Automatic,
+               ImageSize->Automatic,
+               Method->"Preemptive"],
+              DynamicBox[
+               ToBoxes[
+                FEPrivate`FrontEndResource["WAStrings", "RemoveResults"], 
+                StandardForm]]],
+             Annotation[#, 
+              Dynamic[
+               FEPrivate`FrontEndResource["WAStrings", "RemoveResults"]], 
+              "Tooltip"]& ],
+            Appearanceplaypluss->{},
+            BaseStyle->{ShowStringCharacters -> True, ScriptLevel -> 0},
+            ImageSize->{Automatic, {1, 100}},
+            Scrollbars->{False, Automatic}], "\[SpanFromLeft]"}
+         },
+         AutoDelete->False,
+         BaselinePosition->{1, 1},
+         FrameStyle->GrayLevel[0.85],
+         GridBoxAlignment->{"Columns" -> {{Left}}},
+         GridBoxDividers->{
+          "Columns" -> {{False}}, "Rows" -> {False, {True}, False}},
+         GridBoxItemSize->{
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+        "Grid"],
+       Alignment->Top,
+       Background->Dynamic[
+         FEPrivate`If[
+          FEPrivate`And[
+           FEPrivate`SameQ[
+            FEPrivate`Head[Typeset`newq$$], String], 
+           FEPrivate`UnsameQ[Typeset`q$$, Typeset`newq$$]], 
+          RGBColor[1., 0.975, 0.95], 
+          GrayLevel[1]]],
+       BaselinePosition->Baseline,
+       FrameStyle->GrayLevel[0.85],
+       ImageSize->Automatic,
+       RoundingRadius->5,
+       StripOnInput->False],
+      EventHandlerTag[{
+       "MouseEntered" :> FEPrivate`Set[Typeset`show$$, True], "MouseExited" :> 
+        FEPrivate`Set[Typeset`show$$, False], Method -> "Preemptive", 
+        PassEventsDown -> Automatic, PassEventsUp -> True}]],
+     DynamicModuleValues:>{}], True->
+    TagBox[GridBox[{
+       {
+        DynamicModuleBox[{Typeset`show$$ = False, Typeset`assumptionsQ$$ = 
+         False}, 
+         TagBox[
+          FrameBox[
+           TagBox[GridBox[{
+              {
+               InputFieldBox[Dynamic[Typeset`newq$$], String,
+                Appearance->None,
+                BaseStyle->{"CalculateInput"},
+                ContinuousAction->True,
+                Enabled->True,
+                FieldSize->{{1, 40}, {1, 
+                   DirectedInfinity[1]}},
+                TrapSelection->False], 
+               ItemBox[
+                ButtonBox[
+                 PaneSelectorBox[{True->
+                  TagBox[
+                   TooltipBox[
+                    
+                    DynamicBox[FEPrivate`FrontEndResource[
+                    "WABitmaps", "OrangeSquarePlus"]],
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"],
+                     StandardForm]]],
+                   Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "WAStrings", "ShowAllResults"]], "Tooltip"]& ], False->
+                  TagBox[
+                   TooltipBox[
+                    
+                    DynamicBox[FEPrivate`FrontEndResource[
+                    "WABitmaps", "GraySquarePlus"]],
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"],
+                     StandardForm]]],
+                   Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "WAStrings", "ShowAllResults"]], "Tooltip"]& ]}, Dynamic[
+                  Typeset`show$$],
+                  ImageSize->All],
+                 Appearance->None,
+                 ButtonFunction:>(Quiet[
+                    WolframAlpha[]]; If[
+                    Or[
+                    CurrentValue["OptionKey"], 
+                    CurrentValue["AltKey"]], SelectionMove[
+                    ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+                    NotebookWrite[
+                    ButtonNotebook[], 
+                    Cell[
+                    Typeset`newq$$, "WolframAlphaShort", FormatType -> 
+                    "TextForm"], All], Typeset`open$$ = True; 
+                    WolframAlphaClient`Private`extrudeFromFastParse[
+                    "Sum[i^2, {i, 10}]", 
+                    Defer[
+                    Sum[$CellContext`i^2, {$CellContext`i, 1, 10}]], 
+                    "Fast parse"]; Typeset`open$$ = False]),
+                 Evaluator->Automatic,
+                 Method->"Queued"],
+                Alignment->{Right, Top},
+                StripOnInput->False]},
+              {
+               PaneBox[
+                TagBox[
+                 TooltipBox[
+                  ButtonBox[
+                   PaneSelectorBox[{False->
+                    StyleBox[
+                    RowBox[{"Sum", "[", 
+                    RowBox[{
+                    RowBox[{"i", "^", "2"}], ",", " ", 
+                    RowBox[{"{", 
+                    RowBox[{"i", ",", " ", "1", ",", " ", "10"}], "}"}]}], 
+                    "]"}],
+                    StripOnInput->False,
+                    NumberMarks->False], True->
+                    StyleBox[
+                    RowBox[{"Sum", "[", 
+                    RowBox[{
+                    RowBox[{"i", "^", "2"}], ",", " ", 
+                    RowBox[{"{", 
+                    RowBox[{"i", ",", " ", "1", ",", " ", "10"}], "}"}]}], 
+                    "]"}],
+                    StripOnInput->False,
+                    ShowSyntaxStyles->False,
+                    NumberMarks->False,
+                    FontColor->RGBColor[1, 0.5, 0]]}, Dynamic[
+                    CurrentValue["MouseOver"]],
+                    BaseStyle->{ShowStringCharacters -> True},
+                    FrameMargins->0,
+                    ImageSize->Automatic],
+                   Alignment->Left,
+                   Appearance->None,
+                   BaseStyle->{},
+                   ButtonFunction:>(SelectionMove[
+                    ButtonNotebook[], All, ButtonCell]; NotebookWrite[
+                    ButtonNotebook[], 
+                    Cell[
+                    BoxData[
+                    RowBox[{"Sum", "[", 
+                    RowBox[{
+                    RowBox[{"i", "^", "2"}], ",", " ", 
+                    RowBox[{"{", 
+                    RowBox[{"i", ",", " ", "1", ",", " ", "10"}], "}"}]}], 
+                    "]"}]], "Input"], All]; SelectionMove[
+                    ButtonNotebook[], After, CellContents]),
+                   Evaluator->Automatic,
+                   ImageSize->Automatic,
+                   Method->"Preemptive"],
+                  DynamicBox[
+                   ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "RemoveResults"], 
+                    StandardForm]]],
+                 Annotation[#, 
+                  Dynamic[
+                   FEPrivate`FrontEndResource["WAStrings", "RemoveResults"]], 
+                  "Tooltip"]& ],
+                Appearanceplaypluss->{},
+                BaseStyle->{ShowStringCharacters -> True, ScriptLevel -> 0},
+                ImageSize->{Automatic, {1, 100}},
+                Scrollbars->{False, Automatic}], "\[SpanFromLeft]"}
+             },
+             AutoDelete->False,
+             BaselinePosition->{1, 1},
+             FrameStyle->GrayLevel[0.85],
+             GridBoxAlignment->{"Columns" -> {{Left}}},
+             
+             GridBoxDividers->{
+              "Columns" -> {{False}}, "Rows" -> {False, {True}, False}},
+             
+             GridBoxItemSize->{
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+            "Grid"],
+           Alignment->Top,
+           Background->Dynamic[
+             FEPrivate`If[
+              FEPrivate`And[
+               FEPrivate`SameQ[
+                FEPrivate`Head[Typeset`newq$$], String], 
+               FEPrivate`UnsameQ[Typeset`q$$, Typeset`newq$$]], 
+              RGBColor[1., 0.975, 0.95], 
+              GrayLevel[1]]],
+           BaselinePosition->Baseline,
+           FrameStyle->GrayLevel[0.85],
+           ImageSize->Automatic,
+           RoundingRadius->5,
+           StripOnInput->False],
+          
+          EventHandlerTag[{
+           "MouseEntered" :> FEPrivate`Set[Typeset`show$$, True], 
+            "MouseExited" :> FEPrivate`Set[Typeset`show$$, False], Method -> 
+            "Preemptive", PassEventsDown -> Automatic, PassEventsUp -> True}]],
+         DynamicModuleValues:>{}]},
+       {
+        InterpretationBox[
+         StyleBox[
+          
+          DynamicBox[FEPrivate`FrontEndResource[
+           "FEExpressions", "NecklaceAnimator"][20]],
+          AnimatorBoxOptions->{ImageSize->20}],
+         Animator[Appearance -> "Necklace", ImageSize -> 20],
+         BaseStyle->{"Deploy"}]}
+      },
+      BaselinePosition->{1, 1},
+      DefaultBaseStyle->"Column",
+      GridBoxAlignment->{"Columns" -> {{Left}}},
+      GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+     
+     "Column"]}, Dynamic[
+     TrueQ[Typeset`open$$]],
+    BaseStyle->{Deployed -> True},
+    ImageSize->Automatic],
+   DynamicModuleValues:>{}],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "WolframAlphaShortInput",
+ CellLabel->"In[30]:=",ExpressionUUID->"e26f3468-a71f-43cd-bb95-dfb0cab72ff0"],
+
+Cell[BoxData["385"], "Output",
+ CellChangeTimes->{3.9578949372812643`*^9},
+ CellLabel->"Out[30]=",ExpressionUUID->"4e48fc03-5065-4170-b112-6b07d63fad44"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{
+  3.9578946486621323`*^9},ExpressionUUID->"b4af5df3-f828-47f2-8780-\
+cbcc76988132"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"SurvivalModelFit", "[", 
+   RowBox[{"Sum", "[", 
+    RowBox[{
+     RowBox[{"i", "^", "2"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", " ", "27"}], "}"}]}], "]"}], "]"}], 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.957894990051375*^9, 3.957895040881961*^9}},
+ CellLabel->"In[31]:=",ExpressionUUID->"93c9524d-30c0-4edf-84b7-800f76f9bfb7"],
+
+Cell[BoxData[
+ RowBox[{"SurvivalModelFit", "[", "6930", "]"}]], "Output",
+ CellChangeTimes->{3.957895046534988*^9},
+ CellLabel->"Out[31]=",ExpressionUUID->"d133b272-0691-4cff-80f5-c18e72ae441f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Sum", "[", 
+  RowBox[{
+   RowBox[{"i", "^", "2"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"i", ",", " ", "27", ",", " ", "n"}], "}"}]}], "]"}]], "Input",Exp\
+ressionUUID->"7482dfe9-05f8-48a7-a13f-f868c979d667"],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["1", "6"], " ", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"-", "37206"}], "+", "n", "+", 
+    RowBox[{"3", " ", 
+     SuperscriptBox["n", "2"]}], "+", 
+    RowBox[{"2", " ", 
+     SuperscriptBox["n", "3"]}]}], ")"}]}]], "Output",
+ CellChangeTimes->{3.9578951320238447`*^9},
+ CellLabel->"Out[32]=",ExpressionUUID->"9055d1c1-c52e-42bf-92d2-daa072016ac2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  UnderoverscriptBox[
+   RowBox[{"\[Sum]", 
+    RowBox[{"i", "^", "2"}]}], 
+   RowBox[{"h", "=", "1"}], "n"], "\[SelectionPlaceholder]"}]], "Input",
+ CellChangeTimes->{{3.957895827854722*^9, 3.9578958488790407`*^9}},
+ CellLabel->"In[33]:=",ExpressionUUID->"173fd86e-71ad-4af2-ab21-7631933d729c"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Sum", "argmu", 
+   "\"\\!\\(\\*RowBox[{\\\"Sum\\\"}]\\) called with 1 argument; \
+\\!\\(\\*RowBox[{\\\"2\\\"}]\\) or more arguments are expected.\"", 2, 33, 6, 
+   23739368349936432705, "Local"},
+  "MessageTemplate",
+  BaseStyle->"MSG"]], "Message",
+ CellChangeTimes->{3.957895854299993*^9},
+ CellLabel->
+  "During evaluation of \
+In[33]:=",ExpressionUUID->"adc72c81-8ee5-48a8-9946-bd3ed11b7e6f"],
+
+Cell[BoxData[
+ RowBox[{"\[SelectionPlaceholder]", " ", 
+  UnderoverscriptBox[
+   RowBox[{"Sum", "[", 
+    SuperscriptBox["i", "2"], "]"}], "1", "n"]}]], "Output",
+ CellChangeTimes->{3.957895854315013*^9},
+ CellLabel->"Out[33]=",ExpressionUUID->"c89e84cf-13fc-4353-8ae1-6e82a0183b58"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryParseResults",
+  DynamicModuleBox[{Typeset`q$$ = "Sum[i^3, i]", Typeset`newq$$ = 
+   "Sum[i^3, i]", Typeset`chosen$$ = "Sum[i^3, {i}]", Typeset`open$$ = False}, 
+   PaneSelectorBox[{False->
+    DynamicModuleBox[{Typeset`show$$ = False, Typeset`assumptionsQ$$ = False}, 
+     TagBox[
+      FrameBox[
+       TagBox[GridBox[{
+          {
+           InputFieldBox[Dynamic[Typeset`newq$$], String,
+            Appearance->None,
+            BaseStyle->{"CalculateInput"},
+            ContinuousAction->True,
+            Enabled->True,
+            FieldSize->{{1, 40}, {1, 
+               DirectedInfinity[1]}},
+            TrapSelection->False], 
+           ItemBox[
+            ButtonBox[
+             PaneSelectorBox[{True->
+              TagBox[
+               TooltipBox[
+                
+                DynamicBox[FEPrivate`FrontEndResource[
+                 "WABitmaps", "OrangeSquarePlus"],
+                 ImageSizeCache->{11., {3.173828125, 7.826171875}}],
+                DynamicBox[
+                 ToBoxes[
+                  FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
+                  StandardForm]]],
+               Annotation[#, 
+                Dynamic[
+                 FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"]], 
+                "Tooltip"]& ], False->
+              TagBox[
+               TooltipBox[
+                
+                DynamicBox[FEPrivate`FrontEndResource[
+                 "WABitmaps", "GraySquarePlus"],
+                 ImageSizeCache->{11., {3.173828125, 7.826171875}}],
+                DynamicBox[
+                 ToBoxes[
+                  FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
+                  StandardForm]]],
+               Annotation[#, 
+                Dynamic[
+                 FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"]], 
+                "Tooltip"]& ]}, Dynamic[Typeset`show$$],
+              ImageSize->All],
+             Appearance->None,
+             ButtonFunction:>(Quiet[
+                WolframAlpha[]]; If[
+                Or[
+                 CurrentValue["OptionKey"], 
+                 CurrentValue["AltKey"]], SelectionMove[
+                  ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+                NotebookWrite[
+                  ButtonNotebook[], 
+                  Cell[
+                  Typeset`newq$$, "WolframAlphaShort", FormatType -> 
+                   "TextForm"], All], Typeset`open$$ = True; 
+                WolframAlphaClient`Private`extrudeFromFastParse["Sum[i^3, i]", 
+                  Defer[
+                   Sum[$CellContext`i^3, {$CellContext`i}]], "Fast parse"]; 
+                Typeset`open$$ = False]),
+             Evaluator->Automatic,
+             Method->"Queued"],
+            Alignment->{Right, Top},
+            StripOnInput->False]},
+          {
+           PaneBox[
+            TagBox[
+             TooltipBox[
+              ButtonBox[
+               PaneSelectorBox[{False->
+                StyleBox[
+                 RowBox[{"Sum", "[", 
+                  RowBox[{
+                   RowBox[{"i", "^", "3"}], ",", " ", 
+                   RowBox[{"{", "i", "}"}]}], "]"}],
+                 StripOnInput->False,
+                 NumberMarks->False], True->
+                StyleBox[
+                 RowBox[{"Sum", "[", 
+                  RowBox[{
+                   RowBox[{"i", "^", "3"}], ",", " ", 
+                   RowBox[{"{", "i", "}"}]}], "]"}],
+                 StripOnInput->False,
+                 ShowSyntaxStyles->False,
+                 NumberMarks->False,
+                 FontColor->RGBColor[1, 0.5, 0]]}, Dynamic[
+                 CurrentValue["MouseOver"]],
+                BaseStyle->{ShowStringCharacters -> True},
+                FrameMargins->0,
+                ImageSize->Automatic],
+               Alignment->Left,
+               Appearance->None,
+               BaseStyle->{},
+               ButtonFunction:>(SelectionMove[
+                  ButtonNotebook[], All, ButtonCell]; NotebookWrite[
+                  ButtonNotebook[], 
+                  Cell[
+                   BoxData[
+                    RowBox[{"Sum", "[", 
+                    RowBox[{
+                    RowBox[{"i", "^", "3"}], ",", " ", 
+                    RowBox[{"{", "i", "}"}]}], "]"}]], "Input"], All]; 
+                SelectionMove[
+                  ButtonNotebook[], After, CellContents]),
+               Evaluator->Automatic,
+               ImageSize->Automatic,
+               Method->"Preemptive"],
+              DynamicBox[
+               ToBoxes[
+                FEPrivate`FrontEndResource["WAStrings", "RemoveResults"], 
+                StandardForm]]],
+             Annotation[#, 
+              Dynamic[
+               FEPrivate`FrontEndResource["WAStrings", "RemoveResults"]], 
+              "Tooltip"]& ],
+            Appearanceplaypluss->{},
+            BaseStyle->{ShowStringCharacters -> True, ScriptLevel -> 0},
+            ImageSize->{Automatic, {1, 100}},
+            Scrollbars->{False, Automatic}], "\[SpanFromLeft]"}
+         },
+         AutoDelete->False,
+         BaselinePosition->{1, 1},
+         FrameStyle->GrayLevel[0.85],
+         GridBoxAlignment->{"Columns" -> {{Left}}},
+         GridBoxDividers->{
+          "Columns" -> {{False}}, "Rows" -> {False, {True}, False}},
+         GridBoxItemSize->{
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+        "Grid"],
+       Alignment->Top,
+       Background->Dynamic[
+         FEPrivate`If[
+          FEPrivate`And[
+           FEPrivate`SameQ[
+            FEPrivate`Head[Typeset`newq$$], String], 
+           FEPrivate`UnsameQ[Typeset`q$$, Typeset`newq$$]], 
+          RGBColor[1., 0.975, 0.95], 
+          GrayLevel[1]]],
+       BaselinePosition->Baseline,
+       FrameStyle->GrayLevel[0.85],
+       ImageSize->Automatic,
+       RoundingRadius->5,
+       StripOnInput->False],
+      EventHandlerTag[{
+       "MouseEntered" :> FEPrivate`Set[Typeset`show$$, True], "MouseExited" :> 
+        FEPrivate`Set[Typeset`show$$, False], Method -> "Preemptive", 
+        PassEventsDown -> Automatic, PassEventsUp -> True}]],
+     DynamicModuleValues:>{}], True->
+    TagBox[GridBox[{
+       {
+        DynamicModuleBox[{Typeset`show$$ = False, Typeset`assumptionsQ$$ = 
+         False}, 
+         TagBox[
+          FrameBox[
+           TagBox[GridBox[{
+              {
+               InputFieldBox[Dynamic[Typeset`newq$$], String,
+                Appearance->None,
+                BaseStyle->{"CalculateInput"},
+                ContinuousAction->True,
+                Enabled->True,
+                FieldSize->{{1, 40}, {1, 
+                   DirectedInfinity[1]}},
+                TrapSelection->False], 
+               ItemBox[
+                ButtonBox[
+                 PaneSelectorBox[{True->
+                  TagBox[
+                   TooltipBox[
+                    
+                    DynamicBox[FEPrivate`FrontEndResource[
+                    "WABitmaps", "OrangeSquarePlus"]],
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"],
+                     StandardForm]]],
+                   Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "WAStrings", "ShowAllResults"]], "Tooltip"]& ], False->
+                  TagBox[
+                   TooltipBox[
+                    
+                    DynamicBox[FEPrivate`FrontEndResource[
+                    "WABitmaps", "GraySquarePlus"]],
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"],
+                     StandardForm]]],
+                   Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "WAStrings", "ShowAllResults"]], "Tooltip"]& ]}, Dynamic[
+                  Typeset`show$$],
+                  ImageSize->All],
+                 Appearance->None,
+                 ButtonFunction:>(Quiet[
+                    WolframAlpha[]]; If[
+                    Or[
+                    CurrentValue["OptionKey"], 
+                    CurrentValue["AltKey"]], SelectionMove[
+                    ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+                    NotebookWrite[
+                    ButtonNotebook[], 
+                    Cell[
+                    Typeset`newq$$, "WolframAlphaShort", FormatType -> 
+                    "TextForm"], All], Typeset`open$$ = True; 
+                    WolframAlphaClient`Private`extrudeFromFastParse[
+                    "Sum[i^3, i]", 
+                    Defer[
+                    Sum[$CellContext`i^3, {$CellContext`i}]], "Fast parse"]; 
+                    Typeset`open$$ = False]),
+                 Evaluator->Automatic,
+                 Method->"Queued"],
+                Alignment->{Right, Top},
+                StripOnInput->False]},
+              {
+               PaneBox[
+                TagBox[
+                 TooltipBox[
+                  ButtonBox[
+                   PaneSelectorBox[{False->
+                    StyleBox[
+                    RowBox[{"Sum", "[", 
+                    RowBox[{
+                    RowBox[{"i", "^", "3"}], ",", " ", 
+                    RowBox[{"{", "i", "}"}]}], "]"}],
+                    StripOnInput->False,
+                    NumberMarks->False], True->
+                    StyleBox[
+                    RowBox[{"Sum", "[", 
+                    RowBox[{
+                    RowBox[{"i", "^", "3"}], ",", " ", 
+                    RowBox[{"{", "i", "}"}]}], "]"}],
+                    StripOnInput->False,
+                    ShowSyntaxStyles->False,
+                    NumberMarks->False,
+                    FontColor->RGBColor[1, 0.5, 0]]}, Dynamic[
+                    CurrentValue["MouseOver"]],
+                    BaseStyle->{ShowStringCharacters -> True},
+                    FrameMargins->0,
+                    ImageSize->Automatic],
+                   Alignment->Left,
+                   Appearance->None,
+                   BaseStyle->{},
+                   ButtonFunction:>(SelectionMove[
+                    ButtonNotebook[], All, ButtonCell]; NotebookWrite[
+                    ButtonNotebook[], 
+                    Cell[
+                    BoxData[
+                    RowBox[{"Sum", "[", 
+                    RowBox[{
+                    RowBox[{"i", "^", "3"}], ",", " ", 
+                    RowBox[{"{", "i", "}"}]}], "]"}]], "Input"], All]; 
+                    SelectionMove[
+                    ButtonNotebook[], After, CellContents]),
+                   Evaluator->Automatic,
+                   ImageSize->Automatic,
+                   Method->"Preemptive"],
+                  DynamicBox[
+                   ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "RemoveResults"], 
+                    StandardForm]]],
+                 Annotation[#, 
+                  Dynamic[
+                   FEPrivate`FrontEndResource["WAStrings", "RemoveResults"]], 
+                  "Tooltip"]& ],
+                Appearanceplaypluss->{},
+                BaseStyle->{ShowStringCharacters -> True, ScriptLevel -> 0},
+                ImageSize->{Automatic, {1, 100}},
+                Scrollbars->{False, Automatic}], "\[SpanFromLeft]"}
+             },
+             AutoDelete->False,
+             BaselinePosition->{1, 1},
+             FrameStyle->GrayLevel[0.85],
+             GridBoxAlignment->{"Columns" -> {{Left}}},
+             
+             GridBoxDividers->{
+              "Columns" -> {{False}}, "Rows" -> {False, {True}, False}},
+             
+             GridBoxItemSize->{
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+            "Grid"],
+           Alignment->Top,
+           Background->Dynamic[
+             FEPrivate`If[
+              FEPrivate`And[
+               FEPrivate`SameQ[
+                FEPrivate`Head[Typeset`newq$$], String], 
+               FEPrivate`UnsameQ[Typeset`q$$, Typeset`newq$$]], 
+              RGBColor[1., 0.975, 0.95], 
+              GrayLevel[1]]],
+           BaselinePosition->Baseline,
+           FrameStyle->GrayLevel[0.85],
+           ImageSize->Automatic,
+           RoundingRadius->5,
+           StripOnInput->False],
+          
+          EventHandlerTag[{
+           "MouseEntered" :> FEPrivate`Set[Typeset`show$$, True], 
+            "MouseExited" :> FEPrivate`Set[Typeset`show$$, False], Method -> 
+            "Preemptive", PassEventsDown -> Automatic, PassEventsUp -> True}]],
+         DynamicModuleValues:>{}]},
+       {
+        InterpretationBox[
+         StyleBox[
+          
+          DynamicBox[FEPrivate`FrontEndResource[
+           "FEExpressions", "NecklaceAnimator"][20]],
+          AnimatorBoxOptions->{ImageSize->20}],
+         Animator[Appearance -> "Necklace", ImageSize -> 20],
+         BaseStyle->{"Deploy"}]}
+      },
+      BaselinePosition->{1, 1},
+      DefaultBaseStyle->"Column",
+      GridBoxAlignment->{"Columns" -> {{Left}}},
+      GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+     
+     "Column"]}, Dynamic[
+     TrueQ[Typeset`open$$]],
+    BaseStyle->{Deployed -> True},
+    ImageSize->Automatic],
+   DynamicModuleValues:>{}],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "WolframAlphaShortInput",
+ CellLabel->"In[34]:=",ExpressionUUID->"bdb3ab6e-6491-4bcb-b88a-dda34ae07de9"],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["1", "4"], " ", 
+  SuperscriptBox[
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"-", "1"}], "+", "i"}], ")"}], "2"], " ", 
+  SuperscriptBox["i", "2"]}]], "Output",
+ CellChangeTimes->{3.957895989978903*^9},
+ CellLabel->"Out[34]=",ExpressionUUID->"a4928d10-72f7-4b59-979a-9761c6a061a4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"DifferenceDelta", "[", 
+  RowBox[{"%", ",", " ", "I"}], "]"}]], "Input",ExpressionUUID->"50dd59f9-\
+51fe-4292-9c5e-3e36c6eb06b8"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General", "ivar", 
+   "\"\\!\\(\\*RowBox[{\\\"\[ImaginaryI]\\\"}]\\) is not a valid variable.\"",
+    2, 35, 7, 23739368349936432705, "Local"},
+  "MessageTemplate",
+  BaseStyle->"MSG"]], "Message",
+ CellChangeTimes->{3.95789605994461*^9},
+ CellLabel->
+  "During evaluation of \
+In[35]:=",ExpressionUUID->"a1566ccc-2801-4321-9361-51477dbf58d6"],
+
+Cell[BoxData[
+ RowBox[{"DifferenceDelta", "[", 
+  RowBox[{
+   RowBox[{
+    FractionBox["1", "4"], " ", 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "1"}], "+", "i"}], ")"}], "2"], " ", 
+    SuperscriptBox["i", "2"]}], ",", "\[ImaginaryI]"}], "]"}]], "Output",
+ CellChangeTimes->{3.957896059960181*^9},
+ CellLabel->"Out[35]=",ExpressionUUID->"09b781a6-bf4a-48a4-a4e3-9d58a54e7c43"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Sum", "[", 
+  RowBox[{
+   RowBox[{"1", "/", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"j", "^", "2"}], "*", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"i", " ", "+", " ", "1"}], ")"}], "^", "2"}]}], ")"}]}], ",", 
+   " ", 
+   RowBox[{"{", 
+    RowBox[{"i", ",", " ", "1", ",", " ", "Infinity"}], "}"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"j", ",", " ", "1", ",", " ", "i"}], "}"}]}], "]"}]], "Input",Expr\
+essionUUID->"bfaca221-2501-4158-8ffe-00d820d843c6"],
+
+Cell[BoxData[
+ FractionBox[
+  SuperscriptBox["\[Pi]", "4"], "120"]], "Output",
+ CellChangeTimes->{3.9578963841802807`*^9},
+ CellLabel->"Out[36]=",ExpressionUUID->"6cca7456-f84a-4bce-9998-81e113a93784"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Sum", "[", 
+  RowBox[{
+   RowBox[{"f", "[", "i", "]"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"i", ",", " ", "1", ",", " ", "5", ",", " ", "2"}], "}"}]}], 
+  "]"}]], "Input",ExpressionUUID->"6c92298d-5435-47d5-96a6-3159446375a7"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"f", "[", "1", "]"}], "+", 
+  RowBox[{"f", "[", "3", "]"}], "+", 
+  RowBox[{"f", "[", "5", "]"}]}]], "Output",
+ CellChangeTimes->{3.95789648043478*^9},
+ CellLabel->"Out[37]=",ExpressionUUID->"b0ee723f-ef60-4b6b-8bc0-ee5fc2b04254"]
+}, Open  ]],
+
+Cell[BoxData[""], "WolframAlphaShortInput",
+ CellChangeTimes->{{3.957896750253224*^9, 
+  3.95789675063179*^9}},ExpressionUUID->"301ebee7-4b6d-4033-9a3b-\
+aad5ee4bfd86"]
+},
+WindowSize->{476.25, 239.25},
+WindowMargins->{{6, Automatic}, {Automatic, 6}},
+TaggingRules-><|"TryRealOnly" -> False|>,
+FrontEndVersion->"14.2 for Linux x86 (64-bit) (March 16, 2025)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"874643e8-9268-41df-ba44-d21996a576c8"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 490, 10, 127, "Input",ExpressionUUID->"8fdc352d-a343-49fa-897c-9683aff1f8a1"],
+Cell[1069, 34, 304, 6, 53, "Output",ExpressionUUID->"a01366da-492e-4f75-b125-12035df8cba4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1410, 45, 310, 8, 46, "Input",ExpressionUUID->"2e033db3-dc8b-4dbb-a1f7-995ad7d9a6ef"],
+Cell[1723, 55, 328, 9, 33, "Output",ExpressionUUID->"833e1e00-5e4c-40d7-a17a-5e7262fd7d57"]
+}, Open  ]],
+Cell[2066, 67, 258, 7, 46, "Input",ExpressionUUID->"535b55bb-718f-4c51-ac0c-07ee3d7b5083"],
+Cell[2327, 76, 289, 8, 29, "Input",ExpressionUUID->"add11293-e2aa-422e-82ee-554c514e8ff1"],
+Cell[CellGroupData[{
+Cell[2641, 88, 503, 12, 36, "Input",ExpressionUUID->"7fbaf198-fe1c-4ed5-a39f-ee0de0f2b6a7"],
+Cell[3147, 102, 1761, 41, 377, "Output",ExpressionUUID->"cdb228c8-86e4-4f2e-bc6a-ac57cdc85f7e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4945, 148, 327, 8, 70, "Input",ExpressionUUID->"d022465b-d6c1-46cf-b164-d1ac19ff9add"],
+Cell[5275, 158, 380, 10, 26, "Message",ExpressionUUID->"7db5f127-29d3-48b9-8561-0aaf7fe3b08d"],
+Cell[5658, 170, 252, 6, 33, "Output",ExpressionUUID->"7e829a33-7246-4ad9-850e-210726022ecf"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5947, 181, 14011, 345, 66, "WolframAlphaShortInput",ExpressionUUID->"e26f3468-a71f-43cd-bb95-dfb0cab72ff0"],
+Cell[19961, 528, 153, 2, 33, "Output",ExpressionUUID->"4e48fc03-5065-4170-b112-6b07d63fad44"]
+}, Open  ]],
+Cell[20129, 533, 130, 3, 29, "Input",ExpressionUUID->"b4af5df3-f828-47f2-8780-cbcc76988132"],
+Cell[CellGroupData[{
+Cell[20284, 540, 399, 10, 70, "Input",ExpressionUUID->"93c9524d-30c0-4edf-84b7-800f76f9bfb7"],
+Cell[20686, 552, 194, 3, 33, "Output",ExpressionUUID->"d133b272-0691-4cff-80f5-c18e72ae441f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20917, 560, 235, 6, 47, "Input",ExpressionUUID->"7482dfe9-05f8-48a7-a13f-f868c979d667"],
+Cell[21155, 568, 389, 11, 45, "Output",ExpressionUUID->"9055d1c1-c52e-42bf-92d2-daa072016ac2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21581, 584, 319, 7, 50, "Input",ExpressionUUID->"173fd86e-71ad-4af2-ab21-7631933d729c"],
+Cell[21903, 593, 428, 11, 44, "Message",ExpressionUUID->"adc72c81-8ee5-48a8-9946-bd3ed11b7e6f"],
+Cell[22334, 606, 283, 6, 51, "Output",ExpressionUUID->"c89e84cf-13fc-4353-8ae1-6e82a0183b58"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22654, 617, 13486, 333, 66, "WolframAlphaShortInput",ExpressionUUID->"bdb3ab6e-6491-4bcb-b88a-dda34ae07de9"],
+Cell[36143, 952, 320, 9, 45, "Output",ExpressionUUID->"a4928d10-72f7-4b59-979a-9761c6a061a4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36500, 966, 153, 3, 47, "Input",ExpressionUUID->"50dd59f9-51fe-4292-9c5e-3e36c6eb06b8"],
+Cell[36656, 971, 375, 10, 26, "Message",ExpressionUUID->"a1566ccc-2801-4321-9361-51477dbf58d6"],
+Cell[37034, 983, 410, 11, 45, "Output",ExpressionUUID->"09b781a6-bf4a-48a4-a4e3-9d58a54e7c43"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37481, 999, 501, 15, 72, "Input",ExpressionUUID->"bfaca221-2501-4158-8ffe-00d820d843c6"],
+Cell[37985, 1016, 201, 4, 48, "Output",ExpressionUUID->"6cca7456-f84a-4bce-9998-81e113a93784"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[38223, 1025, 255, 6, 47, "Input",ExpressionUUID->"6c92298d-5435-47d5-96a6-3159446375a7"],
+Cell[38481, 1033, 264, 6, 33, "Output",ExpressionUUID->"b0ee723f-ef60-4b6b-8bc0-ee5fc2b04254"]
+}, Open  ]],
+Cell[38760, 1042, 168, 3, 30, "WolframAlphaShortInput",ExpressionUUID->"301ebee7-4b6d-4033-9a3b-aad5ee4bfd86"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
